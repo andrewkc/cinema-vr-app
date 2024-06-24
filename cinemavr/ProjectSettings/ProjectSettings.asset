@@ -142,6 +142,8 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: ca29f6d07d8c7484383c4965f9457dca, type: 2}
+  - {fileID: 7186992974329484626, guid: 556e72829a4c0fe499c51c3df6229fa9, type: 2}
+  - {fileID: 3319568487694484766, guid: 64afbc17572ee2c48a3fef04e28b41a4, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -178,7 +180,7 @@ PlayerSettings:
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
-  ForceInternetPermission: 0
+  ForceInternetPermission: 1
   ForceSDCardPermission: 0
   CreateWallpaper: 0
   APKExpansionFiles: 0
@@ -743,7 +745,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: FUSION_WEAVER;FUSION2;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;PHOTON_VOICE_DEFINED;XRSHARED_ADDON_AVAILABLE;PHOTON_FUSION_PHYSICS_ADDON_DEFINED
+    Android: FUSION_WEAVER;FUSION2;USE_INPUT_SYSTEM_POSE_CONTROL;USE_STICK_CONTROL_THUMBSTICKS;PHOTON_VOICE_DEFINED;XRSHARED_ADDON_AVAILABLE;PHOTON_FUSION_PHYSICS_ADDON_DEFINED;VUPLEX_CCU
     EmbeddedLinux: PHOTON_VOICE_DEFINED;PHOTON_FUSION_PHYSICS_ADDON_DEFINED
     GameCoreScarlett: PHOTON_VOICE_DEFINED;PHOTON_FUSION_PHYSICS_ADDON_DEFINED
     GameCoreXboxOne: PHOTON_VOICE_DEFINED;PHOTON_FUSION_PHYSICS_ADDON_DEFINED
